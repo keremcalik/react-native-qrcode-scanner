@@ -1,0 +1,33 @@
+{
+  "name": "react-native-qrcode-scanner",
+  "version": "1.0.0",
+  "description": "Customizable QR Code Scanner",
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keremcalik/react-native-qrcode-scanner.git"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react-native-camera": "^3.3.0"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "qrcode",
+    "barcode",
+    "qrcode-scanner",
+    "qrcode-viewfinder",
+    "android",
+    "ios",
+    "keremcalik"
+  ],
+  "author": "Kerem Çalık",
+  "license": ""
+}

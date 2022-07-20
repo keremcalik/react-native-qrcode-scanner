@@ -1,2 +1,3 @@
-# react-native-qrcode-scanner
- Customizable QR Code Scanner
+# React Native QR Code Scanner
+
+Customizable QR Code Scanner
