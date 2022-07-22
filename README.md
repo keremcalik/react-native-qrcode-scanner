@@ -9,28 +9,18 @@ There is problem with scanBarStyle and somebody has recommended remove scanBarSt
 Also there is problem with componentDidMount() and componentWillUnmount() functions. I fixed this problem.
 
 <code>
-listener;
-  
+listener; 
 </code>
 <code>
-  
 componentDidMount() {
-  
   listener = AppState.addEventListener("change", this.handleAppStateChange);
-  
 }
-  
 </code>
 <code>
-  
 componentWillUnmount() {
-  
-  listener.remove();
-  
+  listener.remove();  
   this.rnCamera && this.rnCamera.pausePreview();
-  
 }
-  
 </code>
   
 ---
