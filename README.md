@@ -8,7 +8,8 @@ A highly customizable QR Code scanner based on  **[react-native-qrcode-scanner-v
 There is problem with scanBarStyle and somebody has recommended remove scanBarStyle property. I changed this property in original QR Scanner file instead of removing.
 Also there is problem with componentDidMount() and componentWillUnmount() functions. I fixed this problem.
 
-  <code>listener;
+  <code>
+  listener;
   componentDidMount() {
     listener = AppState.addEventListener("change", this.handleAppStateChange);
   }
@@ -16,7 +17,8 @@ Also there is problem with componentDidMount() and componentWillUnmount() functi
   componentWillUnmount() {
     listener.remove();
     this.rnCamera && this.rnCamera.pausePreview();
-  }</code>
+  }
+  </code>
   
 ---
 
