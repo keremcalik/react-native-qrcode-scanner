@@ -10,10 +10,13 @@ Also there is problem with componentDidMount() and componentWillUnmount() functi
 
   <code>
   listener;
+  </code>
+  <code>
   componentDidMount() {
     listener = AppState.addEventListener("change", this.handleAppStateChange);
   }
-
+  </code>
+  <code>
   componentWillUnmount() {
     listener.remove();
     this.rnCamera && this.rnCamera.pausePreview();
