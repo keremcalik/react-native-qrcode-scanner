@@ -18,6 +18,8 @@ componentWillUnmount() {
 }</code>
   
 ---
+To install: npm i react-native-qrcode-scanner-screen
+---
 
 ## Features
 
