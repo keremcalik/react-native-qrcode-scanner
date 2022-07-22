@@ -1,5 +1,5 @@
 {
-  "name": "react-native-qrcode-scanner",
+  "name": "react-native-qrcode-scanner-screen",
   "version": "1.0.0",
   "description": "Customizable QR Code Scanner",
   "main": "index.js",
